@@ -7,6 +7,7 @@ import ErrorPage from './pages/ErrorPage/ErrorPage.jsx'
 import HomePage from './pages/HomePage/HomePage.jsx'
 import LogInPage from './pages/LogInPage/LogInPage.jsx'
 import RegisterPage from './pages/ErrorPage/RegisterPage/RegisterPage.jsx'
+import Contact from './pages/Contact/Contact.jsx'
 
 
 const router = createBrowserRouter([
@@ -26,7 +27,11 @@ const router = createBrowserRouter([
      {
       path:"/register",
       element:<RegisterPage />
-     }
+     },
+     {
+      path:"/contact",
+      element:<Contact />
+     },
       
     ],
   },

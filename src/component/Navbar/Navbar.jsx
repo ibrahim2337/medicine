@@ -41,13 +41,13 @@ const Navbar = () => {
               </a>
             </li>
             <li className="flex">
-              <a
+              <Link to="/contact"
                 rel="noopener noreferrer"
                 href="#"
                 className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent"
               >
                 CONTACT US
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="items-center flex-shrink-0 hidden lg:flex">
