@@ -37,7 +37,7 @@ const Navbar = () => {
                 href="#"
                 className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent"
               >
-                Link
+                Global Operation
               </a>
             </li>
             <li className="flex">
@@ -46,7 +46,7 @@ const Navbar = () => {
                 href="#"
                 className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent"
               >
-                Link
+                CONTACT US
               </a>
             </li>
           </ul>
