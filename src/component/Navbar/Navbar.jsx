@@ -26,7 +26,7 @@ const Navbar = () => {
               <a
                 rel="noopener noreferrer"
                 href="#"
-                className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent"
+                className="flex items-center px-4 -mb-1"
               >
                 Link
               </a>
