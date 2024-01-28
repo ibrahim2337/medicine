@@ -1,7 +1,7 @@
 import './Blog.css'
 const Blog = () => {
   return (
-   <div className='featured-item bg-fixed  bg-opacity-50 py-16'>
+   <div className='featured-item bg-fixed py-16'>
      <div className="lg:mx-28 mx-5 ">
       <div className="grid lg:grid-cols-2 gap-10  ">
         <div className=" bg-[#122E28] bg-opacity-70 py-5">
