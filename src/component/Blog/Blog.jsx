@@ -1,8 +1,10 @@
+import './Blog.css'
 const Blog = () => {
   return (
-    <div className="lg:mx-28 mx-5">
-      <div className="grid lg:grid-cols-2 gap-10">
-        <div className=" bg-[#122E28] py-5">
+   <div className='featured-item bg-fixed  bg-opacity-50 py-16'>
+     <div className="lg:mx-28 mx-5 ">
+      <div className="grid lg:grid-cols-2 gap-10  ">
+        <div className=" bg-[#122E28] bg-opacity-70 py-5">
           <h1 className="font-extrabold text-3xl text-white px-5 lg:pb-1 pb-2">
             Who we are
           </h1>
@@ -22,7 +24,7 @@ const Blog = () => {
             pharmaceutical products to many countries around the world.
           </p>
         </div>
-        <div className=" bg-[#122E28] py-5">
+        <div className=" bg-[#122E28] bg-opacity-70 py-5">
           <h1 className="font-extrabold text-3xl text-white px-5 lg:pb-1 pb-2">
             What we do
           </h1>
@@ -36,6 +38,7 @@ const Blog = () => {
         </div>
       </div>
     </div>
+   </div>
   );
 };
 
