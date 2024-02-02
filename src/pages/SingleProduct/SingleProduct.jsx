@@ -9,7 +9,7 @@ const SingleProduct = () => {
     <div className="my-8">
       <div className="grid lg:grid-cols-2 lg:mx-32 mx-5 gap-10">
         <div>
-          <img src={SingleProductImage} alt="" /> 
+          <img src={SingleProductImage} alt="" />
         </div>
         <div>
           <div>
@@ -51,7 +51,7 @@ const SingleProduct = () => {
           </div>
 
           <div className="pt-4">
-            <h1 className="text-justify">
+            <h1 className="text-justify ">
               SmileZ Premium Quality Sports t-shirts are smooth and comfortable.
               The t-shirts are made with the finest quality polyester fabric,
               perfect for casual or sports wear.
@@ -83,7 +83,7 @@ const SingleProduct = () => {
             </h2>
             <table>
               <thead className="border border-black gap-2">
-                <tr >
+                <tr>
                   <th className="px-5 lg:px-10 bg-gray-300">Size</th>
                   <th className="px-5 lg:px-10 bg-gray-200">Chest (Round)</th>
                   <th className="px-5 lg:px-10 bg-gray-300">Length</th>
@@ -91,7 +91,7 @@ const SingleProduct = () => {
                 </tr>
               </thead>
               <tbody className="border border-black gap-2">
-                <tr >
+                <tr>
                   <th className="bg-gray-300">M</th>
                   <th className="bg-gray-200">39</th>
                   <th className="bg-gray-300">27.5</th>
