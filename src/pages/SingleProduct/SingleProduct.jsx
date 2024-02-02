@@ -9,7 +9,7 @@ const SingleProduct = () => {
     <div className="my-8">
       <div className="grid lg:grid-cols-2 lg:mx-32 mx-5 gap-10">
         <div>
-          <img src={SingleProductImage} alt="" />
+          <img src={SingleProductImage} alt="" /> 
         </div>
         <div>
           <div>
