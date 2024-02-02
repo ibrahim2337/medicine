@@ -1,4 +1,4 @@
-import image1 from "../../assets/Specialized_Products/1543825878seraflo-removebg-preview.png";
+import image1 from "../../assets/Specialized_Products//638894f4efd88-square.png";
 
 const Category = () => {
   return (
@@ -18,7 +18,7 @@ const Category = () => {
           <img
             src={image1}
             alt=""
-            className="object-cover mx-5 object-center w-full hover:scale-95 lg:hover:scale-105"
+            className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
             <button
@@ -34,7 +34,7 @@ const Category = () => {
           <img
             src={image1}
             alt=""
-            className="object-cover mx-5 object-center w-full hover:scale-95 lg:hover:scale-105"
+            className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
             <button
@@ -50,7 +50,7 @@ const Category = () => {
           <img
             src={image1}
             alt=""
-            className="object-cover mx-5 object-center w-full hover:scale-95 lg:hover:scale-105"
+            className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
             <button
@@ -66,7 +66,7 @@ const Category = () => {
           <img
             src={image1}
             alt=""
-            className="object-cover mx-5 object-center w-full hover:scale-95 lg:hover:scale-105"
+            className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
             <button
@@ -82,7 +82,7 @@ const Category = () => {
           <img
             src={image1}
             alt=""
-            className="object-cover mx-5 object-center w-full hover:scale-95 lg:hover:scale-105"
+            className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
             <button
@@ -98,7 +98,7 @@ const Category = () => {
           <img
             src={image1}
             alt=""
-            className="object-cover mx-5 object-center w-full hover:scale-95 lg:hover:scale-105"
+            className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
             <button
@@ -114,7 +114,7 @@ const Category = () => {
           <img
             src={image1}
             alt=""
-            className="object-cover mx-5 object-center w-full hover:scale-95 lg:hover:scale-105"
+            className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
             <button
@@ -130,7 +130,7 @@ const Category = () => {
           <img
             src={image1}
             alt=""
-            className="object-cover mx-5 object-center w-full hover:scale-95 lg:hover:scale-105"
+            className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
             <button
@@ -141,6 +141,8 @@ const Category = () => {
             </button>
           </div>
         </div>
+
+        
       </div>
     </div>
   );
