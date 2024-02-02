@@ -2,6 +2,7 @@ import SingleProductImage from "../../assets/SingleProduct/651a617470cb2-square.
 import { FaBangladeshiTakaSign } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
 import { FaPlus } from "react-icons/fa6";
+import { GoDotFill } from "react-icons/go";
 
 const SingleProduct = () => {
   return (
@@ -43,8 +44,41 @@ const SingleProduct = () => {
               <FaPlus />
             </div>
             <div className="bg-gray-800 hover:bg-black flex items-center">
-              <button className="text-white py-0.5 lg:px-5 text-lg">Add To Card</button>
+              <button className="text-white py-0.5 lg:px-5 px-5 text-lg">
+                Add To Card
+              </button>
             </div>
+          </div>
+
+          <div className="pt-4">
+            <h1 className="text-justify">
+              SmileZ Premium Quality Sports t-shirts are smooth and comfortable.
+              The t-shirts are made with the finest quality polyester fabric,
+              perfect for casual or sports wear.
+            </h1>
+            <h2 className="text-md font-bold pt-2">Detailed Specification:</h2>
+            <ul className="ps-10">
+              <div className="flex gap-2 items-center pt-2">
+                <GoDotFill />
+                <li className="">Finest quality Polyester</li>
+              </div>
+              <div className="flex gap-2 items-center">
+                <GoDotFill />
+                <li className="">Regular fit, Crew Neck Mid-weight, 145gsm.</li>
+              </div>
+              <div className="flex gap-2 items-center">
+                <GoDotFill />
+                <li className="">Sharp and long-lasting sublimation print</li>
+              </div>
+              <div className="flex gap-2 items-center">
+                <GoDotFill />
+                <li className="">Preshrunk to minimize shrinkage</li>
+              </div>
+            </ul>
+
+            <h2 className="text-md font-bold pt-2">
+              Size chart - In inches (Expected Deviation 3%)
+            </h2>
           </div>
         </div>
       </div>
