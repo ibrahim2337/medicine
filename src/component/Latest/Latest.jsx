@@ -1,4 +1,4 @@
-import image1 from "../../assets/Latest_Procucts/Toposar50mg.jpg";
+import image1 from "../../assets/Latest_Procucts/638741f4b7222-square.jpg";
 
 const Latest = () => {
   return (
