@@ -75,10 +75,54 @@ const SingleProduct = () => {
                 <li className="">Preshrunk to minimize shrinkage</li>
               </div>
             </ul>
+          </div>
 
-            <h2 className="text-md font-bold pt-2">
+          <div>
+            <h2 className="text-md font-bold pt-2 mb-3">
               Size chart - In inches (Expected Deviation 3%)
             </h2>
+            <table>
+              <thead className="border border-black gap-2">
+                <tr >
+                  <th className="px-5 lg:px-10 bg-gray-300">Size</th>
+                  <th className="px-5 lg:px-10 bg-gray-200">Chest (Round)</th>
+                  <th className="px-5 lg:px-10 bg-gray-300">Length</th>
+                  <th className="px-5 lg:px-10 bg-gray-200">Sleeve</th>
+                </tr>
+              </thead>
+              <tbody className="border border-black gap-2">
+                <tr >
+                  <th className="bg-gray-300">M</th>
+                  <th className="bg-gray-200">39</th>
+                  <th className="bg-gray-300">27.5</th>
+                  <th className="bg-gray-200">8.5</th>
+                </tr>
+              </tbody>
+              <tbody className="border border-black gap-2">
+                <tr>
+                  <th className="bg-gray-300">L</th>
+                  <th className="bg-gray-200">40.5</th>
+                  <th className="bg-gray-300">28</th>
+                  <th className="bg-gray-200">8.75</th>
+                </tr>
+              </tbody>
+              <tbody className="border border-black gap-2">
+                <tr>
+                  <th className="bg-gray-300">XL</th>
+                  <th className="bg-gray-200">43</th>
+                  <th className="bg-gray-300">29</th>
+                  <th className="bg-gray-200">9</th>
+                </tr>
+              </tbody>
+              <tbody className="border border-black gap-2">
+                <tr className="">
+                  <th className="bg-gray-300">2XL</th>
+                  <th className="bg-gray-200">45</th>
+                  <th className="bg-gray-300">30</th>
+                  <th className="bg-gray-200">9.25</th>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
