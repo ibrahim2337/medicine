@@ -4,6 +4,7 @@ import Category from "../../component/Category/Category";
 
 import Latest from "../../component/Latest/Latest";
 import MaskFeature from "../../component/MaskFeature/MaskFeature";
+import Support from "../../component/Support/Support";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Blog></Blog> */}
       <MaskFeature></MaskFeature>
       <Category></Category>
+      <Support></Support>
     </div>
   );
 };
