@@ -204,7 +204,7 @@ const Navbar = () => {
           </nav>
         </div>
 
-        <nav className="lg:hidden" aria-label="Global" id="mobile-menu">
+        {/* <nav className="lg:hidden" aria-label="Global" id="mobile-menu">
           <div className="space-y-1 px-2 pb-3 pt-2">
             <a
               href="#"
@@ -290,7 +290,7 @@ const Navbar = () => {
               </a>
             </div>
           </div>
-        </nav>
+        </nav> */}
       </header>
     </div>
   );
