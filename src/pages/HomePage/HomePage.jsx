@@ -1,7 +1,7 @@
 import Banner from "../../component/Banner/Banner";
-import Blog from "../../component/Blog/Blog";
+
 import Category from "../../component/Category/Category";
-import Introduction from "../../component/Introduction/Introduction";
+
 import Latest from "../../component/Latest/Latest";
 import MaskFeature from "../../component/MaskFeature/MaskFeature";
 
@@ -10,8 +10,8 @@ const HomePage = () => {
     <div className="">
       <Banner></Banner>
       <Latest></Latest>
-      <Introduction></Introduction>
-      <Blog></Blog>
+      {/* <Introduction></Introduction>
+      <Blog></Blog> */}
       <MaskFeature></MaskFeature>
       <Category></Category>
     </div>
