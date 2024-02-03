@@ -5,7 +5,7 @@ import { GrSecure } from "react-icons/gr";
 
 const Support = () => {
   return (
-    <div className="grid lg:grid-cols-4 gap-5 lg:mx-20 mx-5 py-20">
+    <div className="grid lg:grid-cols-4 gap-10 lg:mx-20 mx-5 py-20">
       <div className="flex items-center gap-5 ">
         <div className="border bg-slate-200 p-3 rounded-full">
           <FaCarSide />
