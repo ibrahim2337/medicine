@@ -9,6 +9,7 @@ import LogInPage from "./pages/LogInPage/LogInPage.jsx";
 import RegisterPage from "./pages/ErrorPage/RegisterPage/RegisterPage.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import SingleProduct from "./pages/SingleProduct/SingleProduct.jsx";
+import AllProduct from "./pages/AllProduct/AllProduct.jsx";
 
 const router = createBrowserRouter([
   {
@@ -36,7 +37,10 @@ const router = createBrowserRouter([
         path: "/product",
         element: <SingleProduct />,
       },
-     
+      {
+        path: "/all-product",
+        element:<AllProduct /> ,
+      },
     ],
   },
 ]);

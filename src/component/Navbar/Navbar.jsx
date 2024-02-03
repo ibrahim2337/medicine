@@ -177,12 +177,12 @@ const Navbar = () => {
             >
               Dashboard
             </a>
-            <a
+            <Link to="/all-product"
               href="#"
               className="inline-flex items-center rounded-md py-2 px-3 text-sm font-medium"
             >
               ALL
-            </a>
+            </Link>
             <a
               href="#"
               className=" inline-flex items-center rounded-md py-2 px-3 text-sm font-medium"
