@@ -1,6 +1,7 @@
 import { FaCarSide } from "react-icons/fa";
 import { SlSupport } from "react-icons/sl";
 import { FaExchangeAlt } from "react-icons/fa";
+import { GrSecure } from "react-icons/gr";
 
 const Support = () => {
   return (
@@ -41,7 +42,7 @@ const Support = () => {
 
       <div className="flex items-center gap-5 ">
         <div className="border p-3 rounded-full">
-          <FaCarSide />
+        <GrSecure />
         </div>
         <div>
           <h1 className="text-md font-semibold">100% PAYMENT SECURE</h1>
