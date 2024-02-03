@@ -24,7 +24,25 @@ const Latest = () => {
               type="button"
               className="flex items-center justify-center w-full p-3 font-semibold bg-[#33524A] text-white"
             >
-              TOPOSAR
+              SmileZ
+            </button>
+            
+          </div>
+          
+        </div>
+
+        <div className="border border-slate-950 ">
+          <img
+            src={image1}
+            alt=""
+            className="object-cover object-center w-full"
+          />
+          <div className="flex flex-col justify-between space-y-8">
+            <button
+              type="button"
+              className="flex items-center justify-center w-full p-3 font-semibold bg-[#33524A] text-white"
+            >
+              SmileZ
             </button>
             
           </div>
@@ -51,7 +69,7 @@ const Latest = () => {
               type="button"
               className="flex items-center justify-center w-full p-3 font-semibold bg-[#33524A] text-white"
             >
-              TOPOSAR
+              SmileZ
             </button>
             
           </div>
@@ -78,34 +96,7 @@ const Latest = () => {
               type="button"
               className="flex items-center justify-center w-full p-3 font-semibold bg-[#33524A] text-white"
             >
-              TOPOSAR
-            </button>
-            
-          </div>
-          <div className=" px-5">
-            <div className="flex pt-2">
-                <h1 className="text-md font-semibold  ">Generic Name: </h1>
-                <h2> Etoposide</h2>
-            </div>
-            <div className="flex pt-1"> 
-                <h1 className="text-md font-semibold ">Theraputic Name:</h1>
-                <h2 className="pb-10">Oncalogy</h2>
-            </div>
-          </div>
-        </div>
-
-        <div className="border border-slate-950 ">
-          <img
-            src={image1}
-            alt=""
-            className="object-cover object-center w-full"
-          />
-          <div className="flex flex-col justify-between space-y-8">
-            <button
-              type="button"
-              className="flex items-center justify-center w-full p-3 font-semibold bg-[#33524A] text-white"
-            >
-              TOPOSAR
+              SmileZ
             </button>
             
           </div>

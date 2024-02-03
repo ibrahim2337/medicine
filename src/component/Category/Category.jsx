@@ -1,4 +1,5 @@
 import image1 from "../../assets/Specialized_Products//638894f4efd88-square.png";
+import { Link } from "react-router-dom";
 
 const Category = () => {
   return (
@@ -21,12 +22,12 @@ const Category = () => {
             className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
-            <button
+            <Link to="/product"
               type="button"
               className="flex items-center justify-center w-full p-3 font-semibold bg-[#33524A] text-white"
             >
               Read more
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -37,12 +38,12 @@ const Category = () => {
             className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
-            <button
+            <Link to="/product"
               type="button"
               className="flex items-center justify-center w-full p-3 font-semibold bg-[#33524A] text-white"
             >
               Read more
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -53,12 +54,12 @@ const Category = () => {
             className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
-            <button
+            <Link to="/product"
               type="button"
               className="flex items-center justify-center w-full p-3 font-semibold bg-[#33524A] text-white"
             >
               Read more
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -69,12 +70,12 @@ const Category = () => {
             className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
-            <button
+            <Link to="/product"
               type="button"
               className="flex items-center justify-center w-full p-3 font-semibold bg-[#33524A] text-white"
             >
               Read more
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -85,12 +86,12 @@ const Category = () => {
             className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
-            <button
+            <Link to="/product"
               type="button"
               className="flex items-center justify-center w-full p-3 font-semibold bg-[#33524A] text-white"
             >
               Read more
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -101,12 +102,12 @@ const Category = () => {
             className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
-            <button
+            <Link to="/product"
               type="button"
               className="flex items-center justify-center w-full p-3 font-semibold bg-[#33524A] text-white"
             >
               Read more
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -117,12 +118,12 @@ const Category = () => {
             className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
-            <button
+            <Link to="/product"
               type="button"
               className="flex items-center justify-center w-full p-3 font-semibold bg-[#33524A] text-white"
             >
               Read more
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -133,14 +134,16 @@ const Category = () => {
             className="object-cover object-center w-full  lg:hover:scale-90"
           />
           <div className="flex flex-col justify-between space-y-8">
-            <button
-              type="button"
+            <Link to="/product"
+              type="button"npm i react-responsive-carousel
               className="flex items-center justify-center w-full p-3 font-semibold bg-[#33524A] text-white"
             >
               Read more
-            </button>
+            </Link>
           </div>
         </div>
+
+        
 
         
       </div>

@@ -4,7 +4,7 @@ import Category from "../../component/Category/Category";
 import Introduction from "../../component/Introduction/Introduction";
 import Latest from "../../component/Latest/Latest";
 import MaskFeature from "../../component/MaskFeature/MaskFeature";
-import SingleProduct from "../SingleProduct/SingleProduct";
+
 
 
 const HomePage = () => {
@@ -16,7 +16,7 @@ const HomePage = () => {
             <Latest></Latest>
             <MaskFeature></MaskFeature>
             <Category ></Category>
-            <SingleProduct></SingleProduct>
+            
             
         </div>
     );
