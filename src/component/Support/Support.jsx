@@ -7,7 +7,7 @@ const Support = () => {
   return (
     <div className="grid lg:grid-cols-4 gap-5 lg:mx-20 mx-5 py-20">
       <div className="flex items-center gap-5 ">
-        <div className="border p-3 rounded-full">
+        <div className="border bg-slate-200 p-3 rounded-full">
           <FaCarSide />
         </div>
         <div>
@@ -17,19 +17,19 @@ const Support = () => {
       </div>
 
       <div className="flex items-center gap-5 ">
-        <div className="border p-3 rounded-full">
+        <div className="border bg-slate-200 p-3 rounded-full">
           <SlSupport />
         </div>
         <div>
           <h1 className="text-md font-semibold">SUPPORT</h1>
           <h2 className="text-sm">
-            WHATSAPP: +880 1732287393 CALL: +880 1799000444
+            WHATSAPP: +880 1734454539 CALL: +880 01734454539
           </h2>
         </div>
       </div>
 
       <div className="flex items-center gap-5 ">
-        <div className="border p-3 rounded-full">
+        <div className="border bg-slate-200 p-3 rounded-full">
         <FaExchangeAlt />
         </div>
         <div>
@@ -41,7 +41,7 @@ const Support = () => {
       </div>
 
       <div className="flex items-center gap-5 ">
-        <div className="border p-3 rounded-full">
+        <div className="border bg-slate-200 p-3 rounded-full">
         <GrSecure />
         </div>
         <div>
