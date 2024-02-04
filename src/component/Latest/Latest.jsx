@@ -9,7 +9,7 @@ import image8 from "../../assets/Latest_Procucts/638741f4d7304-square.jpg";
 import image9 from "../../assets/Latest_Procucts/6388945749713-square.jpg";
 import image10 from "../../assets/Latest_Procucts/63889c77196df-square.jpg";
 
-import "./Latest.css"
+
 
 const Latest = () => {
   return (
