@@ -16,7 +16,7 @@ const Accessories = () => {
           onMouseLeave={() => setIsHovered(false)}
         >
           <div className="relative w-full  overflow-hidden ">
-            <img src={beltImage} alt="Your Image" className="centered-image h-40" />
+            <img src={beltImage} alt="Your Image" className="centered-image" />
             <span className="absolute top-0 left-0 w-28 translate-y-4 -translate-x-6 -rotate-45 bg-black text-center font-bold text-sm text-white uppercase">
              belt
             </span>
