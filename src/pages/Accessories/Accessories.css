@@ -1,0 +1,30 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .centered-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.3s ease; /* Add a transition for the blur effect */
+  }
+  
+  .hovered .centered-image {
+    filter: blur(2px); /* Apply the blur effect when hovered */
+  }
+  
+  .centered-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.1s ease;
+  }
+  
+  .image-container:hover .centered-button {
+    opacity: 1;
+  }
