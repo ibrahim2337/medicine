@@ -13,7 +13,7 @@ const WomenProduct = () => {
     >
       <img src={productImage} alt="Your Image" className="centered-image" />
       {isHovered && (
-        <button className="centered-button" onClick={() => console.log('Button clicked')}>
+        <button className="centered-button w-32 h-10 font-bold text-xl bg-white text-black" onClick={() => console.log('Button clicked')}>
           Click Me
         </button>
       )}
