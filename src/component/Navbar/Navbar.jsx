@@ -183,24 +183,36 @@ const Navbar = () => {
             >
               ALL
             </Link>
-            <a
+            <Link to="/men-product"
               href="#"
               className=" inline-flex items-center rounded-md py-2 px-3 text-sm font-medium"
             >
               MEN
-            </a>
-            <a
+            </Link>
+            <Link to="/women-product"
               href="#"
               className=" inline-flex items-center rounded-md py-2 px-3 text-sm font-medium"
             >
               WOMEN
-            </a>
-            <a
+            </Link>
+            <Link to="/kids-product"
               href="#"
               className=" inline-flex items-center rounded-md py-2 px-3 text-sm font-medium"
             >
               KIDS
-            </a>
+            </Link>
+            <Link to="/accessories"
+              href="#"
+              className=" inline-flex items-center rounded-md py-2 px-3 text-sm font-medium"
+            >
+              ACCESSORIES
+            </Link>
+            <Link to="/winter-collection"
+              href="#"
+              className=" inline-flex items-center rounded-md py-2 px-3 text-sm font-medium"
+            >
+              WINTER COLLECTION
+            </Link>
           </nav>
         </div>
 

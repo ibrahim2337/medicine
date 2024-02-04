@@ -10,6 +10,11 @@ import RegisterPage from "./pages/ErrorPage/RegisterPage/RegisterPage.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import SingleProduct from "./pages/SingleProduct/SingleProduct.jsx";
 import AllProduct from "./pages/AllProduct/AllProduct.jsx";
+import MenProduct from "./pages/MenProduct/MenProduct.jsx";
+import WomenProduct from "./pages/WomenProduct/WomenProduct.jsx";
+import KidsProduct from "./pages/KidsProduct/KidsProduct.jsx";
+import WinterCollection from "./pages/WinterCollection/WinterCollection.jsx";
+import Accessories from "./pages/Accessories/Accessories.jsx";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +45,26 @@ const router = createBrowserRouter([
       {
         path: "/all-product",
         element:<AllProduct /> ,
+      },
+      {
+        path: "/men-product",
+        element:<MenProduct /> ,
+      },
+      {
+        path: "/women-product",
+        element:<WomenProduct /> ,
+      },
+      {
+        path: "/kids-product",
+        element:<KidsProduct /> ,
+      },
+      {
+        path: "/WinterCollection",
+        element:<WinterCollection /> ,
+      },
+      {
+        path: "/accessories",
+        element:<Accessories /> ,
       },
     ],
   },
