@@ -6,7 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ErrorPage from "./pages/ErrorPage/ErrorPage.jsx";
 import HomePage from "./pages/HomePage/HomePage.jsx";
 import LogInPage from "./pages/LogInPage/LogInPage.jsx";
-import RegisterPage from "./pages/ErrorPage/RegisterPage/RegisterPage.jsx";
+
 import Contact from "./pages/Contact/Contact.jsx";
 import SingleProduct from "./pages/SingleProduct/SingleProduct.jsx";
 import AllProduct from "./pages/AllProduct/AllProduct.jsx";
@@ -15,6 +15,7 @@ import WomenProduct from "./pages/WomenProduct/WomenProduct.jsx";
 import KidsProduct from "./pages/KidsProduct/KidsProduct.jsx";
 import WinterCollection from "./pages/WinterCollection/WinterCollection.jsx";
 import Accessories from "./pages/Accessories/Accessories.jsx";
+import RegisterPage from "./pages/RegisterPage/RegisterPage.jsx";
 
 const router = createBrowserRouter([
   {

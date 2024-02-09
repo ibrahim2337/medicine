@@ -2,9 +2,9 @@ import { FcGoogle } from "react-icons/fc";
 import { Link } from "react-router-dom";
 
 const RegisterPage = () => {
-  return (
-    <div>
-      <div className="flex justify-center login-item hero min-h-screen bg-base-200 py-5">
+    return (
+        <div>
+             <div className="flex justify-center login-item hero min-h-screen bg-base-200 py-5">
         <div className="hero-content border  flex-col lg:flex-row">
           <div className="card flex-shrink-0 w-full items-center max-w-sm border rounded-md border-black bg-base-100">
             <div>
@@ -115,8 +115,8 @@ const RegisterPage = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+        </div>
+    );
 };
 
 export default RegisterPage;
